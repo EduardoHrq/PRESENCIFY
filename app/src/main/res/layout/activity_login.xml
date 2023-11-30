@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="50sp"
+    tools:context=".login_cadastro.Login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="251dp"
+        android:layout_height="284dp"
+        app:srcCompat="@drawable/_023080800165564d18977d8d31_1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="Usuario"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_input"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Senha"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_input"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:inputType="text|textPassword"
+        android:padding="15sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="Esqueceu a senha?"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonToHome"
+        style="@style/button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/buttons_colors"
+        android:text="Entrar"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/linkCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:layout_marginTop="15sp"
+        android:outlineProvider="none"
+        android:text="Cadastrar-se"
+        android:textAlignment="center"
+        android:textColor="#FFF" />
+
+</LinearLayout>

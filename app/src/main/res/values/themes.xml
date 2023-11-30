@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PRESENCIFY" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="button">
+        <item name="android:background">@drawable/buttons_colors</item>
+    </style>
+
+    <style name="Theme.PRESENCIFY" parent="Base.Theme.PRESENCIFY" />
+
+    <style name="Theme.PRESENCIFY.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PRESENCIFY.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PRESENCIFY.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

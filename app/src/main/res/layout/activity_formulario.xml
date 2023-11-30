@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".form.Formulario">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50sp"
+                android:text="2"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/form1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="50sp">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Instituição"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/instituicao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_input"
+                    android:backgroundTint="#FFF"
+                    android:ems="10"
+                    android:hint="Instituição"
+                    android:inputType="text"
+                    android:padding="15sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25sp"
+                    android:text="Campus"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/campus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_input"
+                    android:backgroundTint="#FFF"
+                    android:ems="10"
+                    android:hint="Câmpus"
+                    android:inputType="text"
+                    android:padding="15sp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingVertical="50sp">
+
+                <Button
+                    android:id="@+id/buttonProx1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Próximo" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/form2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="50sp">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25sp"
+                    android:text="Curso"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/curso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_input"
+                    android:backgroundTint="#FFF"
+                    android:ems="10"
+                    android:hint="Curso"
+                    android:inputType="text"
+                    android:padding="15sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25sp"
+                    android:text="Periodo"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/periodo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_input"
+                    android:backgroundTint="#FFF"
+                    android:ems="10"
+                    android:hint="Periodo"
+                    android:inputType="text"
+                    android:padding="15sp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="50sp">
+
+                <Button
+                    android:id="@+id/voltar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25sp"
+                    android:text="Voltar" />
+
+                <Button
+                    android:id="@+id/buttonProx2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Próximo" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/form3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="50sp">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Taxa de Presença"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/presenca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_input"
+                    android:backgroundTint="#FFF"
+                    android:ems="10"
+                    android:hint="Taxa de presença"
+                    android:inputType="text"
+                    android:padding="15sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25sp"
+                    android:text="Dias de Aula"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/aula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_input"
+                    android:backgroundTint="#FFF"
+                    android:ems="10"
+                    android:hint="Dias de Aula"
+                    android:inputType="text"
+                    android:padding="15sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25sp"
+                    android:text="Faltas por dia"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/faltasPorDia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_input"
+                    android:backgroundTint="#FFF"
+                    android:ems="10"
+                    android:hint="Faltas por dia"
+                    android:inputType="text"
+                    android:padding="15sp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="50sp">
+
+                <Button
+                    android:id="@+id/voltar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25sp"
+                    android:text="Voltar" />
+
+                <Button
+                    android:id="@+id/enviarForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enviar" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
